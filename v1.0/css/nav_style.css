@@ -1,0 +1,49 @@
+nav {
+	max-width: 1400px;
+	margin: 0 auto;
+	color: white; 
+}
+
+nav a {
+	color: white;
+	padding: 10px;
+}
+
+nav a:hover {
+	cursor: pointer;
+	background-color: grey;
+}
+
+.nav_content {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+
+.nav_contact div div {
+	margin-right: 15px;
+}
+
+.nav_contact a {
+	margin-left: 25px;
+}
+
+.nav_emblem {
+	background-image: url(../img/emblem_title.png);
+	background-size: 100% 100%;
+	object-fit: cover;
+	width: 210px;
+	min-height: 210px;
+	transform: translateY(40px);
+}
+
+@media (max-width: 1200px) {
+	.nav_content {
+		font-size: 24px;
+	}
+
+	.nav_emblem {
+		width: 180px;
+		min-height: 180px;
+	}
+}

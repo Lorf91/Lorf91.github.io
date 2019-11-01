@@ -1,0 +1,31 @@
+.candela_GentleLasePro {
+	background-color: #d4c0bc;
+	border-radius: 0 0 15px 15px;
+	padding: 45px 15px 15px;
+	color: #585455;
+}
+
+.candela_GentleLasePro img {
+	width: 300px;
+	border-radius: 15px;
+	margin-left: 15px;
+	float: right;
+}
+
+.candela_GentleLasePro h2 {
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.candela_GentleLasePro p {
+	font-size: 22px;
+	line-height: 45px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.candela_GentleLasePro_description {
+	
+}
