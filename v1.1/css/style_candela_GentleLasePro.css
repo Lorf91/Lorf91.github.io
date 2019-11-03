@@ -1,0 +1,133 @@
+.candela_GentleLasePro {
+	background-color: #d4c0bc;
+	border-radius: 0 0 15px 15px;
+	padding: 45px 15px 15px;
+	color: #585455;
+}
+
+.candela_GentleLasePro img {
+	width: 300px;
+	border-radius: 15px;
+	margin-left: 15px;
+	float: right;
+}
+
+.candela_GentleLasePro h2 {
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.candela_GentleLasePro p {
+	font-size: 22px;
+	line-height: 45px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.candela_GentleLasePro_description {
+	margin-top: 30px;
+	padding: 15px;
+	color: #585455;
+}
+
+.candela_GentleLasePro_description img {
+	max-width: 30%;
+	border-radius: 15px;
+	float: left;
+	margin-right: 30px;
+}
+
+.candela_GentleLasePro_description div ol {
+	max-width: 1200px;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+.candela_GentleLasePro_description li {
+	list-style: disc;
+	margin-bottom: 20px;
+}
+
+.candela_GentleLasePro_description div ol span {
+	font-style: italic;
+}
+
+.Why_candela_GentleLasePro .caption {
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	color: #585455;
+}
+
+.Why_candela_GentleLasePro div p {
+	font-size: 20px;
+	padding: 10px;
+	color: #585455;
+	background-color: #d4c0bc;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.candela_GentleLasePro_recomendation {
+	padding: 20px 15px 35px;
+	margin-top: 20px;
+	border-radius: 15px 15px 0 0;
+	background-color: #d4c0bc;
+	color: #585455;
+	font-size: 20px;
+}
+
+.candela_GentleLasePro_recomendation .candela_GentleLasePro_recomendation_title {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.candela_GentleLasePro_recomendation ol li {
+	margin-bottom: 20px;
+}
+
+.candela_GentleLasePro_recomendation li::before {
+	content:"\2713\0020";
+	margin-right: 5px;
+}
+
+.candela_GentleLasePro_recomendation p {
+	margin-top: 15px;
+}
+
+.candela_GentleLasePro_contraindications {
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	background-color: #58585a;
+}
+
+.candela_GentleLasePro_contraindications_title,
+.candela_GentleLasePro_whatsHappening_title {
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.candela_GentleLasePro_contraindications ol li {
+	margin: 0 0 10px 25px;
+	list-style: disc;
+}
+
+.candela_GentleLasePro_whatsHappening {
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 15px;
+	color: #585455;
+	padding: 20px;
+	text-align: justify;
+}
+
