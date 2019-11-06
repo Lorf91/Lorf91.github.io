@@ -1,0 +1,291 @@
+/*ABOUT_THE_CENTER*/
+
+/*execution_of_procedures*/
+.execution_of_procedures {
+	background-color: #d4c0bc;
+	border-radius: 0 0 10px 10px;
+	color: #5b5b5b
+}
+
+.execution_of_procedures img {
+	max-width: 90%;
+	margin: 35px auto 25px;
+	border-radius: 10px;
+}
+
+.execution_of_procedures h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.execution_of_procedures p {
+	margin: 0 45px 65px;
+	font-size: 24px;
+	line-height: 35px;
+	font-style: italic;
+	text-align: justify;
+}
+
+.execution_of_procedures h3 {
+	font-size: 28px;
+	margin: 0 45px 25px;
+}
+
+.execution_of_procedures li {
+	font-size: 26px;
+	line-height: 45px;
+	font-style: italic;
+	margin-left: 40px;
+}
+
+.execution_of_procedures li:before {
+	content:"\2713\0020";
+	margin-right: 5px;
+}
+
+.execution_of_procedures p:last-child {
+	margin-top: 50px;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+/*condition_assessment*/
+.condition_assessment {
+	background-color: #727271;
+	margin-top: 35px;
+	border-radius: 10px;
+}
+
+.condition_assessment img {
+	width: 50%;
+	border-radius: 20px;
+	border: 5px solid #f5d4cd;
+	margin: 20px;
+}
+
+.condition_assessment div div p {
+	font-size: 30px;
+	line-height: 50px;
+	letter-spacing: 3px;
+	text-align: right;
+	margin: 20px 40px 20px 0;
+	color: #f5d4cd;
+}
+
+.condition_assessment div p {
+	color: #fefefe;
+	font-size: 26px;
+	letter-spacing: 1px;
+	margin: 20px;
+	text-align: justify;
+}
+
+/*about_sylton*/
+.about_sylton .line {
+	background-color: #d5c3bf;
+	width: 80%;
+	min-height: 10px;
+	border-radius: 5px;
+	margin: 30px auto 20px;
+}
+
+.about_sylton div p {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 65px;
+	color: #5b5b5b;
+	margin: 0 35px;
+}
+
+.about_sylton img {
+	max-width: 400px;
+	border-radius: 20px;
+	border:5px solid #d5c3bf;
+}
+
+.about_sylton_description div {
+	margin: 15px 0;
+}
+
+.about_sylton_description div p {
+	background-color: #d4c0bc;
+	padding: 10px 20px;
+	font-size: 22px;
+	line-height: 30px;
+	border-radius: 15px;
+}
+
+div.about_sylton_results p {
+	font-size: 22px;
+	font-style: italic;
+}
+
+/*about_text*/
+.about_text {
+	margin: 40px auto 0;
+	padding-top: 30px;
+	background-color: #7f7776;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.about_text h2 {
+	color: #f5d4cd;
+	font-size: 26px;
+	font-style: italic;
+	margin: 0 20px 10px 0;
+}
+
+.about_text p {
+	color: #f5d4cd;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0 20px;
+}
+
+.about_text p:last-child {
+	color: white;
+	font-style: normal;
+	text-align: justify;
+	margin-top: 35px;
+	font-size: 22px;
+	line-height: 34px;
+}
+
+.about_text img {
+	margin-top: 20px;
+	max-width: 50%;
+	border-radius: 0 0 10px 10px;
+}
+
+/*Our_advantages*/
+.Our_advantages {
+	color: #5b5b5b
+}
+
+.Our_advantages h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 40px 0 30px;
+}
+
+.Our_advantages p {
+	background-color: #d5c3bf;
+	border-radius: 10px;
+	font-size: 26px;
+	padding: 20px 15px;
+	margin-bottom: 30px;
+}
+
+.laser_hair_removal,
+.observ520 {
+	margin: 40px auto;
+}
+
+.laser_hair_removal h2,
+.observ520 h2 {
+	font-size: 26px;
+	margin-bottom: 15px;
+	color: #5b5b5b;
+}
+
+.laser_hair_removal .text_description,
+.observ520 .text_description {
+	line-height: 45px;
+} 
+
+.text_description,
+.cleaning li {
+	color: black;
+	font-size: 22px;
+	margin: 0 20px 0 20px;
+	text-align: justify;
+	line-height: 32px;
+}
+
+.laser_hair_removal img {
+	border-radius: 10px;
+	width: 210px;
+	margin: 0 0 0 15px;
+	float: right;
+}
+
+.observ520 img {
+	border-radius: 10px;
+	width: 340px;
+	float: left;
+	margin-right: 15px;
+}
+
+.buttom {
+	margin: 10px 15px 30px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	background-color: #58585a;
+	color: #f5d4cd;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+}
+
+.line_dotted {
+	max-width: 800px;
+	min-height: 2px;
+	border-top: 2px dotted black;
+	margin: 20px auto;
+}
+
+.consultations .title,
+.injections .title,
+.botulinum_therapy .title,
+.cleaning .title,
+.cares .title,
+.hardware_cosmetology .title {
+	font-size: 26px;
+	font-weight: bold;
+	color: #5b5b5b;
+	margin: 20px auto;
+}
+
+.consultations button,
+.injections button,
+.botulinum_therapy button,
+.cleaning button,
+.cares button {
+	margin-top: 30px;
+}
+
+.cleaning ol,
+.hardware_cosmetology li {
+	margin-left: 20px;
+}
+
+.cleaning li,
+.hardware_cosmetology li {
+	list-style: disc;
+}
+
+.hardware_cosmetology .sub_title {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.float_right {
+	float: right;
+}
+
+.hardware_cosmetology img {
+	width: 275px;
+	border-radius: 20px;
+	margin-left: 15px;
+}
+
+
+
+
+

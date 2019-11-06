@@ -1,0 +1,353 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: cambria;
+}
+
+.header_content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.menu_wrapper {
+	max-width: 1200px;
+	background-color: #58585a;
+	margin-top: 85px;
+	margin-left: 300px;
+}
+
+.menu {
+	max-width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.menu [type='checkbox'],
+.menu label.toggleSubmenu {
+	display: none;
+}
+
+.toggleMenu {
+	display: none;
+	position: relative;
+}
+
+.menu > ul {
+	display: flex;
+}
+
+.items li {
+	position: relative;
+}
+
+.items ul li {
+	border: 1px solid #807f7f;
+}
+
+.logo {
+	background-image: url(../img/emblem_title.png);
+	background-size: 100% 100%;
+	width: 209px;
+	height: 209px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+.menu > ul li a {
+	display: block;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	position: relative;
+}
+
+.menu li a:hover {
+	background: #f5d4cd;
+	color: #585455;
+	transition: all 0.3s ease;
+}
+
+.menu li ul {
+	position: absolute;
+	display: none;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.menu li > ul li a {
+	text-transform: none;
+} 
+
+.smenu {
+	position: absolute;
+	background-color: #000000a8;
+}
+
+.pmenu {
+	position: absolute;
+	background-color: #000000a8;
+	right: -138px;
+	top: 0;
+}
+
+.nav_contact {
+	color: white;
+	font-size: 22px;
+	margin: 20px 80px 0 0;
+}
+
+.nav_contact a {
+	color: white;
+	margin-left: 20px;
+}
+
+/*MEDIA*/
+@media (max-width: 1200px) {
+	header {
+		min-height: 130px;
+	}
+
+	.menu_wrapper {
+		max-width: 1000px;
+		margin-left: 200px;
+		margin-top: 70px;
+	}
+	
+	.menu > ul li a {
+		font-size: 16px;
+	}
+
+	.nav_contact {
+		font-size: 16px;
+		margin-right: 10px;
+	}
+
+	.nav_emblem {
+		width: 180px;
+		min-height: 180px;
+	}
+
+	.logo {
+		width: 180px;
+		height: 180px;
+		top: 10px;
+		left: 15px;
+	}
+}
+
+@media (max-width: 992px) {
+	
+	.menu_wrapper {
+		max-width: 800px;
+		margin-left: 130px;
+		margin-top: 60px;
+	}
+	
+	.menu > ul li a {
+		font-size: 14px;
+	}
+
+	.nav_contact {
+		font-size: 18px;
+		margin-right: 10px;
+	}
+
+	.nav_contact {
+		font-size: 14px;
+		margin-right: 10px;
+	}
+
+	.logo {
+		width: 150px;
+		height: 150px;
+		top: 15px;
+		left: -5px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	header {
+		min-height: 80px;
+		background-color: #f5d4cd;
+	}
+
+	.header_contact {
+		/*margin: 0 auto;*/
+		display: none;
+	}
+
+	/*.nav_contact {
+		margin: 10px auto;
+	}*/
+
+	/*.contacts_tell a {
+		font-size: 14px;
+		margin-left: 10px;
+	}*/
+
+	/*.contacts_tell {
+		flex-direction: column;
+	}*/
+	
+	.menu > label i {
+		margin: 0 10px 0 0;
+	}
+	
+	.menu_wrapper {
+		/*max-width: 460px;
+		min-width: 220px;*/
+		max-width: 768px;
+		min-width: 100%;
+		border: 1px solid  #f5d4cd;
+		border-radius: 10px;
+		margin: 10px auto 0;
+	}
+
+	ul {
+		width: 100%;
+		border-radius: 0 0 10px 10px;
+	}
+	
+	.menu label.toggleMenu {
+		position: relative;
+	}
+
+	.menu {
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.menu > ul {
+		flex-direction: column;
+	}
+
+	.toggleMenu {
+		display: block;
+		min-height: 60px;
+		padding: 19px 15px;
+		margin: 5px 5px 5px 40px;
+		font-size: 16px;
+		color: white;
+		letter-spacing: 2px;
+		font-weight: 700;
+		cursor: pointer;
+		text-transform: uppercase;
+		border-radius: 10px;
+		position: relative;
+	}
+
+	.toggleMenu:before {
+		content: "";
+		background-image: url(../img/emblem_title.png);
+		display: block;
+		background-size: 100% 100%;
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		left: -70px;
+		top: 0;
+	}
+
+	.toggleMenu:after {
+		content: "VITAstudio";
+		/*font-family: sans-serif;*/
+		text-transform: none;
+		font-size: 22px;
+	} 
+
+	.logo {
+		display: none;
+	}
+
+	.menu ul {
+		display: block;
+		max-height: 0;
+		transition: max-height 0.3s;
+		overflow: hidden;
+	}
+	
+	.menu ul li {
+		position: relative;
+	}
+
+	input.toggleMenu:checked + label.toggleMenu {
+		background: #f5d4cd;
+		color: #585455;
+	}
+
+	input.toggleMenu:checked ~ ul,
+	input.toggleSubmenu:checked ~ ul {
+		display: block;
+		position: relative;
+  		max-height: 2000px;
+ 		transition: max-height 2s ease-in;
+  	}
+
+	.menu label.toggleSubmenu {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		display: block;
+	}
+	
+	input.toggleSubmenu:checked ~ a{
+		background-color: #f5d4cd;
+		color: #585455;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.menu li ul {
+		display: block;
+	}
+
+	.menu li a:hover {
+		/*border-radius: 5px;*/
+		transition: none;
+	}
+
+	.items a:before {
+		background: white;
+		border-radius: 10px 0 0 10px;
+	}
+
+	.items ul li {
+		border: none;
+	}
+
+	.menu label.toggleSubmenu .fa:before {
+		content: "\f107";
+		color: white;
+	}
+
+	.menu label.toggleSubmenu .fa {
+		position: absolute;
+		top: 15px;
+		right: 20px;
+	}
+
+	.menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before {
+		content: "\f106";
+		color: #fc6863;
+	}
+
+	.pmenu {
+		right: 0;
+	}
+
+}
